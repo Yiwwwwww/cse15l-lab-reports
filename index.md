@@ -1,7 +1,5 @@
 
 # Lab reports!
-[Lab Report 1](lab-report-1-week-2.html)
-
 
 [Lab Report 1](https://github.com/Yiwwwwww/cse15l-lab-reports/blob/e5143c4532409a5cea277cb50f86bdb83dcbbb62/lab-report-1-week-2.md)
 
