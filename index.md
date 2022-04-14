@@ -1,7 +1,7 @@
 
 # Lab reports!
 
-[Lab Report 1](/Users/k/Documents/GitHub/cse15l-lab-reports/lab-report-1-week-2.html)
+[Lab Report 1](https://yiwwwwww.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 
 
