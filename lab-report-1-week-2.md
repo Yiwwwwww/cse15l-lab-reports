@@ -8,7 +8,11 @@ It's simple, just go to the [website](https://code.visualstudio.com/) and downlo
 ## 2. Remotely Connecting
 For MAC computers, you look up your course specific account [here](https://sdacs.ucsd.edu/~icc/index.php). Then you change the passwords and go to the terminal on your MAC. The next step is type something like 
 
-⤇ ssh cs15lsp22zz@ieng6.ucsd.edu
+
+```
+'⤇ ssh cs15lsp22zz@ieng6.ucsd.edu'
+```
+
 
 in the terminal, put in password and you're done. 
 
@@ -18,6 +22,7 @@ You should get a result like this:
 ## 3. Trying Some Commands
 There are many useful commands you can use. Like:
 
+```
 cd ~
 
 cd
@@ -25,6 +30,7 @@ cd
 ls -lat
 
 ls -a
+```
 
 Successfully doing so would result in ![this](Screenshot3.png)
 
@@ -32,9 +38,9 @@ Successfully doing so would result in ![this](Screenshot3.png)
 
 ## 4. Moving Files with scp
 For this step you create a class called WhereAmI.java. Then in the terminal you type in
-
+```
 scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
-
+```
 Then log into it again and use ls. That should do it. 
 
 ![image](Screenshot4.png)
