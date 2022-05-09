@@ -36,6 +36,13 @@ And this is where it was uploaded on github and the right is the git commands to
 
 
 ##Copy whole directories with scp -r
-Show copying your whole markdown-parse directory to your ieng6 account.
-Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
-Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+
+This is me copying my whole markdown-parse directory to my ieng6 account.
+![image](Screenshot13.png)
+This is me logging into my ieng6 account after doing above and compiling and running the tests for my repository.
+![image](Screenshot15.png)
+
+If I'm running everything in one line it would be this.
+```
+scp -r . cs15lsp22abt@ieng6.ucsd.edu:~/markdown-parse; ssh ieng6; cd markdown-parse;javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+```
