@@ -1,8 +1,31 @@
-Streamlining ssh Configuration
-Show your .ssh/config file, and how you edited it (with VScode, another program, etc)
-Show the ssh command logging you into your account using just the alias you chose.
-Show an scp command copying a file to your account using just the alias you chose.
-Setup Github Access from ieng6
+# Lab report two
+
+##Streamlining ssh Configuration
+
+This is my .ssh/config file. In order to create such file, I went
+```
+~/.ssh/config
+```
+first.
+
+Then I open it by hand in my personal folder, then add those code into it
+```
+Host ieng6
+    HostName ieng6.ucsd.edu
+    User cs15lsp22abt
+    IdentityFile ~/.ssh/id_rsa
+```
+Until it become like this.
+![image](Screenshot10.png)
+And above is also the ssh command that I used for logging in.
+![image](Screenshot11.png)
+Also this is how scp copying the file goes using just the alias I chose. 
+
+
+
+
+##Setup Github Access from ieng6
+
 Show where the public key you made is stored on Github and in your user account (screenshot).
 Show where the private key you made is stored on your user account (but not its contents) as a screenshot.
 Show running git commands to commit and push a change to Github while logged into your ieng6 account.
