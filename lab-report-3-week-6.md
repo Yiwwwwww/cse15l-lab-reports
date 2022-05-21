@@ -1,4 +1,4 @@
-# Lab report two
+# Lab report three
 
 ## Streamlining ssh Configuration
 
