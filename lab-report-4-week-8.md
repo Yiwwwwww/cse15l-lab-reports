@@ -26,10 +26,19 @@ a.com,a.com(()),example.com
 https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule
 ```
 
-# Test for my repository
+General 3 tests that I used for both repository
 ![image](Screenshot16.png)
+
+# Test for my repository
 Did not pass. All of them failed. :(
 ![image](Screenshot17.png)
 
 # Test for Tyann Dang's repository
-![image]()
+![image](Screenshot18.png)
+
+------------------------
+
+# Question
+1. Yes, the code would check if there are two backticks. If so, it will provide the link between them.
+2. I feel like <10 lines are not enough here, I would suggest more which sensor how pany pairs of parentheses, brackets, and escaped brackets there are and provide the link between them.
+3. Yes, the small code change works. The code will check for the new lines in brackets and parentheses with while loop.
