@@ -39,6 +39,8 @@ Did not pass. All of them failed. :(
 ------------------------
 
 # Question
-1. Yes, the code would check if there are two backticks. If so, it will provide the link between them.
+1. 
+I would check if the code consists of two backticks. If so, the program will ignore the backticks by replacing all of them with empty space like " ".
+
 2. I feel like <10 lines are not enough here, I would suggest more which sensor how pany pairs of parentheses, brackets, and escaped brackets there are and provide the link between them.
 3. Yes, the small code change works. The code will check for the new lines in brackets and parentheses with while loop.
